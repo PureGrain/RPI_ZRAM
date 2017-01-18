@@ -21,7 +21,7 @@ add line before exit 0
 > /usr/local/bin/zram.sh &
 
 run the script to start your RPI_ZRAM
-sudo /usr/local/bin/zram.sh
+>sudo /usr/local/bin/zram.sh
 
 ## See it in action
 Use top, htop or atop. Which ever you prefer to view the swap memory in action or a simple free -m will do the trick
