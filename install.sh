@@ -17,3 +17,7 @@ sudo chmod +x /usr/local/bin/zram.sh
 sudo sed -i -e '$i # added for rpi_zram by novaspirit\nsudo /usr/local/bin/zram.sh &\n' /etc/rc.local
 
 echo "RPI_ZRAM install complete!!"
+
+## Start the shell script
+sudo /usr/local/bin/zram.sh
+echo "RPI_ZRAM script started!"
